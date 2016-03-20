@@ -39,7 +39,7 @@ of your Docker linux VM. Ex: http://192.168.99.100:8080
 
 ## License
 
-For license information on the software included in this container, see
+For license information on the software included in this image, see
 [Livestreamer LICENSE](https://github.com/chrippa/livestreamer/blob/develop/LICENSE).
 
 ## Contributing
