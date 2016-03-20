@@ -32,6 +32,12 @@ docker run --rm -p 8080:8080 -v ~/.livestreamerc:/root/.config/ twitch.tv/ultra 
 Depending on your OS, you need to point your player to either localhost, or the IP
 of your Docker linux VM. Ex: http://192.168.99.100:8080
 
+
+## License
+
+For license information on the software included in this container, see
+[Livestreamer LICENSE](https://github.com/chrippa/livestreamer/blob/develop/LICENSE).
+
 ## Contributing
 
 1. Fork it ( https://github.com/blackxored/docker-livestreamer/fork )
