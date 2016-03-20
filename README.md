@@ -28,7 +28,7 @@ For logging in and setting extra configuration options, you may mount
 a file as a directory inside the container.
 
 ```shell
-docker run --rm -p 8080:8080 -v ~/.livestreamerc:/root/.config/ twitch.tv/ultra best
+docker run --rm -p 8080:8080 -v ~/.livestreamerrc:/root/.livestreamerrc twitch.tv/ultra best
 ```
 
 ## Connecting the video player
