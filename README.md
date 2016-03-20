@@ -1,5 +1,7 @@
 # livestreamer
 
+[![](https://badge.imagelayers.io/blackxored/livestreamer:latest.svg)](https://imagelayers.io/?images=blackxored/livestreamer:latest)
+
 Run [livestreamer](http://docs.livestreamer.io/) inside a Docker container.
 Exposes a HTTP stream pointing to original content in port 8080.
 
