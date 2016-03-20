@@ -16,7 +16,9 @@ docker run --rm --net=host blackxored/livestreamer twitch.tv/ultra best
 
 Container exposes streaming server at port 8080.
 
+```shell
 docker run --rm -p 8080:8080 blackxored/livestreamer twitch.tv/ultra
+```
 
 ### Advanced usage with config
 
