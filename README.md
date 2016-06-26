@@ -34,7 +34,7 @@ docker run --rm -p 8080:8080 -v ~/.livestreamerrc:/root/.livestreamerrc blackxor
 You can easily leverage this by creating a shell alias:
 
 ```shell
-alias livestreamer="docker run -rm -p 8080:8080 -v ~/.livestreamerrc:/root/.livestreamerrc blackxored/livestreamer
+alias livestreamer="docker run -rm -p 8080:8080 -v ~/.livestreamerrc:/root/.livestreamerrc blackxored/livestreamer"
 ```
 
 And then use it like:
@@ -46,7 +46,7 @@ livestreamer twitch.tv/ultra best
 ## Connecting the video player
 
 Depending on your OS, you need to point your player to either localhost, or the IP
-of your Docker linux VM. Ex: http://192.168.99.100:8080
+of your Docker Linux VM. Ex: http://192.168.99.100:8080
 
 
 ## License
