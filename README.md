@@ -28,7 +28,19 @@ For logging in and setting extra configuration options, you may mount
 a file as a directory inside the container.
 
 ```shell
-docker run --rm -p 8080:8080 -v ~/.livestreamerrc:/root/.livestreamerrc twitch.tv/ultra best
+docker run --rm -p 8080:8080 -v ~/.livestreamerrc:/root/.livestreamerrc blackxored/livestreamer twitch.tv/ultra best
+```
+
+You can easily leverage this by creating a shell alias:
+
+```shell
+alias livestreamer="docker run -rm -p 8080:8080 -v ~/.livestreamerrc:/root/.livestreamerrc blackxored/livestreamer
+```
+
+And then use it like:
+
+```
+livestreamer twitch.tv/ultra best
 ```
 
 ## Connecting the video player
